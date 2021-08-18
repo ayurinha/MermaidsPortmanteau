@@ -1,0 +1,91 @@
+.navbar-mermaid{
+    background-color:transparent;
+    font-size: 35px;
+    color: rgb(185, 157, 240);
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 1%;
+    z-index: 1000;
+}
+p{
+    font-family: 'Assistant', sans-serif;
+    color: rgb(163, 163, 163);
+}
+
+.view {
+    background: url("https://live.staticflickr.com/65535/33784650818_008a179081_o.png")no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -100px;
+    }
+}
+h4{
+    color: rgb(95, 95, 95);
+    font-family: 'Cinzel', serif;
+}
+h6{
+    font-family: 'Assistant', sans-serif;
+    font-style: italic;
+    color: rgb(165, 165, 165);
+}
+
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: rgba(243, 243, 243, 0.897);
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgba(243, 243, 243, 0.897);
+    }
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+.pprodutos{
+    background-color: rgb(243, 243, 243);
+}
+h2{
+    color: rgb(224, 179, 255);
+    font-family: 'Assistant',sans-serif;
+    font-size: 20px;
+}
+p{
+    color: rgb(148, 148, 148);
+    font-family: 'Assistant',sans-serif;
+}
+
+.row{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+footer {
+    position: absolute; 
+    top: 95%;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+.footer-end{
+    font-size: 18px;
+    font-family: 'Cinzel', serif;
+    color: rgb(148, 148, 148);
+    padding-bottom: 5px;
+}
+h1{
+    font-family: 'Assistant', sans-serif;
+    font-size: 10px;
+    color: rgb(148, 148, 148);
+}
